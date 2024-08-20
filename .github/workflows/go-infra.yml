@@ -1,0 +1,24 @@
+name: 'Generate Weekly Full Report for microsoft/go-infra'
+
+on:
+  schedule:
+    - cron: 0 5 * * 1    
+  workflow_dispatch:
+  
+permissions:
+  issues: read
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - id: report
+        uses: gramster/python-reports@main
+        with:
+          repository: 'go-infra'
+          githubToken: ${{ secrets.PAT }}
+          weekly: true
+          hotspots: true
+          team: 'gdams,qmuntal,dagood,mertakman,karianna'
