@@ -1,4 +1,4 @@
-name: 'Generate Weekly Full Report for microsoft/go'
+name: 'Generate Weekly Full Report for microsoft/go-lab'
 
 on:
   schedule:
@@ -17,7 +17,7 @@ jobs:
       - id: report
         uses: gramster/python-reports@main
         with:
-          repository: 'go'
+          repository: 'go-lab'
           githubToken: ${{ secrets.PAT }}
           weekly: true
           hotspots: true
