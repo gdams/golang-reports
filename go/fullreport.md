@@ -2,7 +2,7 @@
 # GITHUB ISSUES REPORT FOR microsoft/go
 
 
-Generated on 2024-09-23 using: stale=30, all=True
+Generated on 2024-09-30 using: stale=30, all=True
 
 
 * marks items that are new to report in past 1 day(s)
@@ -17,23 +17,23 @@ Generated on 2024-09-23 using: stale=30, all=True
 
 | Days Ago | Issue | Title |
 | --- | --- | --- |
- |  OP:410  |[1015](https://github.com/microsoft/go/issues/1015 "Support OpenSSL crypto on Windows") | Support OpenSSL crypto on Windows |
- |  OP:450  |[967](https://github.com/microsoft/go/issues/967 "Plan integrating SHA3 functionality") | Plan integrating SHA3 functionality |
+ |  OP:417  |[1015](https://github.com/microsoft/go/issues/1015 "Support OpenSSL crypto on Windows") | Support OpenSSL crypto on Windows |
+ |  OP:457  |[967](https://github.com/microsoft/go/issues/967 "Plan integrating SHA3 functionality") | Plan integrating SHA3 functionality |
 
 ### Issues in go that have comments from OP after last team response:
 
 | Days Ago | Issue | Title |
 | --- | --- | --- |
- |  TM:86, OP:86  |[1255](https://github.com/microsoft/go/issues/1255 "Microsoft defender false positives of Go binaries on windows") | Microsoft defender false positives of Go binaries on windows |
+ |  TM:93, OP:93  |[1255](https://github.com/microsoft/go/issues/1255 "Microsoft defender false positives of Go binaries on windows") | Microsoft defender false positives of Go binaries on windows |
 
 ### Issues in go that have no external responses since team response in 30+ days:
 
 | Days Ago | Issue | Title |
 | --- | --- | --- |
- |  TM:55  |[1283](https://github.com/microsoft/go/issues/1283 "OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list") | OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list |
- |  TM:76  |[1267](https://github.com/microsoft/go/issues/1267 "Compiling Grafana using FIPS with Microsoft Go 1.21") | Compiling Grafana using FIPS with Microsoft Go 1.21 |
- |  TM:221  |[1143](https://github.com/microsoft/go/issues/1143 "[BEST PRACTICE] To use with unique identifier") | [BEST PRACTICE] To use with unique identifier |
- |  TM:930  |[447](https://github.com/microsoft/go/issues/447 "Docker image for microsoft/go") | Docker image for microsoft/go |
+ |  TM:62  |[1283](https://github.com/microsoft/go/issues/1283 "OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list") | OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list |
+ |  TM:83  |[1267](https://github.com/microsoft/go/issues/1267 "Compiling Grafana using FIPS with Microsoft Go 1.21") | Compiling Grafana using FIPS with Microsoft Go 1.21 |
+ |  TM:228  |[1143](https://github.com/microsoft/go/issues/1143 "[BEST PRACTICE] To use with unique identifier") | [BEST PRACTICE] To use with unique identifier |
+ |  TM:937  |[447](https://github.com/microsoft/go/issues/447 "Docker image for microsoft/go") | Docker image for microsoft/go |
 
 
 
@@ -41,16 +41,16 @@ Generated on 2024-09-23 using: stale=30, all=True
 
 ## MOST FREQUENTLY CHANGED FILES (by # of PRs):
 
-107: go
+104: go
 
 
- 43: patches/0005-Add-CNG-crypto-backend.patch
+ 45: patches/0005-Add-CNG-crypto-backend.patch
 
 
- 37: patches/0004-Add-OpenSSL-crypto-backend.patch
+ 35: patches/0004-Add-OpenSSL-crypto-backend.patch
 
 
- 24: patches/0006-Vendor-crypto-backends.patch
+ 26: patches/0006-Vendor-crypto-backends.patch
 
 
  23: eng/_util/go.mod
@@ -65,16 +65,13 @@ Generated on 2024-09-23 using: stale=30, all=True
  20: eng/pipeline/stages/run-stage.yml
 
 
- 19: patches/0002-Add-crypto-backend-foundation.patch
+ 17: patches/0002-Add-crypto-backend-foundation.patch
+
+
+ 14: MICROSOFT_REVISION
 
 
  13: eng/doc/fips/UserGuide.md
-
-
- 12: MICROSOFT_REVISION
-
-
- 11: patches/0003-Add-BoringSSL-crypto-backend.patch
 
 
  10: eng/pipeline/rolling-internal-pipeline.yml
@@ -84,6 +81,9 @@ Generated on 2024-09-23 using: stale=30, all=True
 
 
  10: eng/pipeline/stages/publish-stage.yml
+
+
+  9: patches/0003-Add-BoringSSL-crypto-backend.patch
 
 
   9: eng/pipeline/stages/go-builder-matrix-stages.yml
