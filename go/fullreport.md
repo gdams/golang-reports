@@ -2,7 +2,7 @@
 # GITHUB ISSUES REPORT FOR microsoft/go
 
 
-Generated on 2024-11-11 using: stale=30, all=True
+Generated on 2024-11-18 using: stale=30, all=True
 
 
 * marks items that are new to report in past 1 day(s)
@@ -17,25 +17,25 @@ Generated on 2024-11-11 using: stale=30, all=True
 
 | Days Ago | Issue | Title |
 | --- | --- | --- |
- |  OP:40  |[1347](https://github.com/microsoft/go/issues/1347 "Binaries built with opensslcrypto experiment can sometimes fallback to gocrypto, for historical algorithms") | Binaries built with opensslcrypto experiment can sometimes fallback to gocrypto, for historical algorithms |
- |  OP:459  |[1015](https://github.com/microsoft/go/issues/1015 "Support OpenSSL crypto on Windows") | Support OpenSSL crypto on Windows |
- |  OP:499  |[967](https://github.com/microsoft/go/issues/967 "Plan integrating SHA3 functionality") | Plan integrating SHA3 functionality |
+ |  OP:47  |[1347](https://github.com/microsoft/go/issues/1347 "Binaries built with opensslcrypto experiment can sometimes fallback to gocrypto, for historical algorithms") | Binaries built with opensslcrypto experiment can sometimes fallback to gocrypto, for historical algorithms |
+ |  OP:466  |[1015](https://github.com/microsoft/go/issues/1015 "Support OpenSSL crypto on Windows") | Support OpenSSL crypto on Windows |
+ |  OP:506  |[967](https://github.com/microsoft/go/issues/967 "Plan integrating SHA3 functionality") | Plan integrating SHA3 functionality |
 
 ### Issues in go that have comments from OP after last team response:
 
 | Days Ago | Issue | Title |
 | --- | --- | --- |
- |  TM:135, OP:135  |[1255](https://github.com/microsoft/go/issues/1255 "Microsoft defender false positives of Go binaries on windows") | Microsoft defender false positives of Go binaries on windows |
+ |  TM:142, OP:142  |[1255](https://github.com/microsoft/go/issues/1255 "Microsoft defender false positives of Go binaries on windows") | Microsoft defender false positives of Go binaries on windows |
 
 ### Issues in go that have no external responses since team response in 30+ days:
 
 | Days Ago | Issue | Title |
 | --- | --- | --- |
- |  TM:55  |[1319](https://github.com/microsoft/go/issues/1319 "panic in addTLS in cgo code") | panic in addTLS in cgo code |
- |  TM:104  |[1283](https://github.com/microsoft/go/issues/1283 "OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list") | OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list |
- |  TM:125  |[1267](https://github.com/microsoft/go/issues/1267 "Compiling Grafana using FIPS with Microsoft Go 1.21") | Compiling Grafana using FIPS with Microsoft Go 1.21 |
- |  TM:270  |[1143](https://github.com/microsoft/go/issues/1143 "[BEST PRACTICE] To use with unique identifier") | [BEST PRACTICE] To use with unique identifier |
- |  TM:979  |[447](https://github.com/microsoft/go/issues/447 "Docker image for microsoft/go") | Docker image for microsoft/go |
+ |  TM:62  |[1319](https://github.com/microsoft/go/issues/1319 "panic in addTLS in cgo code") | panic in addTLS in cgo code |
+ |  TM:111  |[1283](https://github.com/microsoft/go/issues/1283 "OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list") | OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list |
+ |  TM:132  |[1267](https://github.com/microsoft/go/issues/1267 "Compiling Grafana using FIPS with Microsoft Go 1.21") | Compiling Grafana using FIPS with Microsoft Go 1.21 |
+ |  TM:277  |[1143](https://github.com/microsoft/go/issues/1143 "[BEST PRACTICE] To use with unique identifier") | [BEST PRACTICE] To use with unique identifier |
+ |  TM:986  |[447](https://github.com/microsoft/go/issues/447 "Docker image for microsoft/go") | Docker image for microsoft/go |
 
 
 
@@ -46,37 +46,40 @@ Generated on 2024-11-11 using: stale=30, all=True
 103: go
 
 
- 51: patches/0005-Add-CNG-crypto-backend.patch
+ 52: patches/0005-Add-CNG-crypto-backend.patch
 
 
- 33: patches/0004-Add-OpenSSL-crypto-backend.patch
+ 34: patches/0004-Add-OpenSSL-crypto-backend.patch
+
+
+ 26: eng/_util/go.mod
 
 
  26: patches/0006-Vendor-crypto-backends.patch
 
 
- 25: eng/_util/go.mod
+ 25: eng/_util/go.sum
 
 
- 24: eng/_util/go.sum
-
-
- 24: patches/0002-Add-crypto-backend-foundation.patch
+ 25: patches/0002-Add-crypto-backend-foundation.patch
 
 
  23: VERSION
 
 
- 21: eng/pipeline/stages/run-stage.yml
+ 22: eng/pipeline/stages/run-stage.yml
 
 
  16: MICROSOFT_REVISION
 
 
- 13: eng/pipeline/stages/go-builder-matrix-stages.yml
+ 14: eng/pipeline/stages/go-builder-matrix-stages.yml
 
 
  12: eng/pipeline/stages/builders-to-stages.yml
+
+
+ 11: .github/workflows/codeql.yml
 
 
  11: eng/pipeline/rolling-internal-pipeline.yml
@@ -86,6 +89,9 @@ Generated on 2024-11-11 using: stale=30, all=True
 
 
  10: eng/pipeline/stages/publish-stage.yml
+
+
+  9: patches/0003-Add-BoringSSL-crypto-backend.patch
 
 
   9: eng/pipeline/rolling-innerloop-pipeline.yml
@@ -100,12 +106,6 @@ Generated on 2024-11-11 using: stale=30, all=True
   8: eng/pipeline/pr-pipeline.yml
 
 
-  8: .github/workflows/codeql.yml
-
-
-  8: patches/0003-Add-BoringSSL-crypto-backend.patch
-
-
   7: eng/pipeline/pr-outerloop-pipeline.yml
 
 
@@ -113,6 +113,9 @@ Generated on 2024-11-11 using: stale=30, all=True
 
 
   6: eng/_core/cmd/build/build.go
+
+
+  5: eng/utilities.ps1
 
 
   5: eng/pipeline/stages/pool-2.yml
