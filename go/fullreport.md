@@ -2,7 +2,7 @@
 # GITHUB ISSUES REPORT FOR microsoft/go
 
 
-Generated on 2024-11-25 using: stale=30, all=True
+Generated on 2024-12-02 using: stale=30, all=True
 
 
 * marks items that are new to report in past 1 day(s)
@@ -17,25 +17,26 @@ Generated on 2024-11-25 using: stale=30, all=True
 
 | Days Ago | Issue | Title |
 | --- | --- | --- |
- |  OP:54  |[1347](https://github.com/microsoft/go/issues/1347 "Binaries built with opensslcrypto experiment can sometimes fallback to gocrypto, for historical algorithms") | Binaries built with opensslcrypto experiment can sometimes fallback to gocrypto, for historical algorithms |
- |  OP:473  |[1015](https://github.com/microsoft/go/issues/1015 "Support OpenSSL crypto on Windows") | Support OpenSSL crypto on Windows |
- |  OP:513  |[967](https://github.com/microsoft/go/issues/967 "Plan integrating SHA3 functionality") | Plan integrating SHA3 functionality |
+ |  OP:61  |[1347](https://github.com/microsoft/go/issues/1347 "Binaries built with opensslcrypto experiment can sometimes fallback to gocrypto, for historical algorithms") | Binaries built with opensslcrypto experiment can sometimes fallback to gocrypto, for historical algorithms |
+ |  OP:480  |[1015](https://github.com/microsoft/go/issues/1015 "Support OpenSSL crypto on Windows") | Support OpenSSL crypto on Windows |
+ |  OP:520  |[967](https://github.com/microsoft/go/issues/967 "Plan integrating SHA3 functionality") | Plan integrating SHA3 functionality |
 
 ### Issues in go that have comments from OP after last team response:
 
 | Days Ago | Issue | Title |
 | --- | --- | --- |
- |  TM:149, OP:149  |[1255](https://github.com/microsoft/go/issues/1255 "Microsoft defender false positives of Go binaries on windows") | Microsoft defender false positives of Go binaries on windows |
+ |  TM:156, OP:156  |[1255](https://github.com/microsoft/go/issues/1255 "Microsoft defender false positives of Go binaries on windows") | Microsoft defender false positives of Go binaries on windows |
 
 ### Issues in go that have no external responses since team response in 30+ days:
 
 | Days Ago | Issue | Title |
 | --- | --- | --- |
- |  TM:69  |[1319](https://github.com/microsoft/go/issues/1319 "panic in addTLS in cgo code") | panic in addTLS in cgo code |
- |  TM:118  |[1283](https://github.com/microsoft/go/issues/1283 "OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list") | OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list |
- |  TM:139  |[1267](https://github.com/microsoft/go/issues/1267 "Compiling Grafana using FIPS with Microsoft Go 1.21") | Compiling Grafana using FIPS with Microsoft Go 1.21 |
- |  TM:284  |[1143](https://github.com/microsoft/go/issues/1143 "[BEST PRACTICE] To use with unique identifier") | [BEST PRACTICE] To use with unique identifier |
- |  TM:993  |[447](https://github.com/microsoft/go/issues/447 "Docker image for microsoft/go") | Docker image for microsoft/go |
+ |  TM:76  |[1319](https://github.com/microsoft/go/issues/1319 "panic in addTLS in cgo code") | panic in addTLS in cgo code |
+ |  TM:125  |[1283](https://github.com/microsoft/go/issues/1283 "OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list") | OpenSSL version 1.1.1 is not listed under OpenSSL Library's FIPS compliant library list |
+ |  TM:146  |[1267](https://github.com/microsoft/go/issues/1267 "Compiling Grafana using FIPS with Microsoft Go 1.21") | Compiling Grafana using FIPS with Microsoft Go 1.21 |
+ |  TM:291  |[1143](https://github.com/microsoft/go/issues/1143 "[BEST PRACTICE] To use with unique identifier") | [BEST PRACTICE] To use with unique identifier |
+ |  TM:32  |[999](https://github.com/microsoft/go/issues/999 "Query from application whether crypto backend is in FIPS mode") | Query from application whether crypto backend is in FIPS mode |
+ |  TM:1000  |[447](https://github.com/microsoft/go/issues/447 "Docker image for microsoft/go") | Docker image for microsoft/go |
 
 
 
